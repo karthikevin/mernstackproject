@@ -10,7 +10,7 @@ const Contact = () => {
 
   const handleSendMessage =  async(e) =>{
     e.preventDefault();
-    await axios.post("http://localhost:4000/api/v1/message/send", {
+    await axios.post("https://mernstackproject-1.onrender.com/api/v1/message/send", {
       name, 
       email, 
       subject, 
