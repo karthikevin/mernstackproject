@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx node server.js",
-    "dev": "npx nodemon server.js",
-    "postinstall": "npm i"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm istall"
   },
   "keywords": [],
   "author": "",
